@@ -6,7 +6,7 @@ require('dotenv').config();
 module.exports = {
 	app: {
 		port: process.env.DEV_APP_PORT || 3000,
-		appName: process.env.APP_NAME || 'iLrn',
+		appName: process.env.APP_NAME || 'LYRC',
 		env: process.env.NODE_ENV || 'development',
 	},
 	db: {

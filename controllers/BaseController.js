@@ -13,7 +13,7 @@ class BaseController {
 		this.options = options;
 	}
 
-    /**
+	/**
     * Get an element by it's id .
     *
     *
@@ -127,7 +127,7 @@ class BaseController {
 	}
 
 	static async getList(req, modelName, options) {
-		const page = req.query.page;
+		const { page } = req.query;
 
 		let results;
 		try {
